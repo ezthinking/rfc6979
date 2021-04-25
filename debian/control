@@ -1,0 +1,16 @@
+Source: golang-rfc6979
+Section: contrib/net
+Priority: optional
+Maintainer: Erik Ziegenbalg <erikziege@gmail.com>
+Build-Depends: debhelper,
+ dh-golang,
+ golang,
+ autoconf,
+ automake
+Standards-Version: 3.9.8
+
+Package: golang-rfc6979
+Architecture: all
+Depends: golang
+Pre-Depends: bash-completion
+Description: Goldengoose dbft
